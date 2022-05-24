@@ -49,6 +49,7 @@
     justify-content: flex-start;
     align-items: center;
     z-index: 2;
+    background-color: green;
 }
 
 .clothesContainer{
@@ -59,6 +60,8 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+    position: relative;
+    z-index: 2;
 }
 .clothesContainer img{
     width: 100%;
