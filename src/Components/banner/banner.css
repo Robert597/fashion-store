@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: #fff;
+    background-color: #000;
 }
 .quoteContainer{
     min-height: 100vh;
@@ -18,11 +18,11 @@
     white-space: nowrap;
     text-transform: uppercase;
     line-height: 1;
-    color: #fff;
+    color: #000;
 }
 .quoteContainer span{
     display: block;
-    background-color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 1rem 2rem;
 }
 @media all and (max-width: 1000px){

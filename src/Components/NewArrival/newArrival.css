@@ -58,3 +58,38 @@
     width: 60%;
     padding: 20px 50px;
 }
+@media all and (max-width: 1000px){
+    .arrivalSlider{
+        width: 50%;
+    }
+    .arrivalSliderContainer{
+        width: 90%;
+        height: auto;
+    }
+    .arrivalContent{
+        width: 50%;
+        padding: 20px;
+    }
+}
+@media all and (max-width: 890px){
+    .contentContainer{
+        display: flex;
+        padding: 30px;
+        height: 70vh;
+        align-items: center;
+        font-weight: bold;
+    }
+}
+@media all and (max-width: 700px){
+    .contentContainer{
+       flex-direction: column;
+       padding: 30px 80px;
+    }
+    .arrivalSlider{
+        width: 100%;
+    }
+    .arrivalContent{
+        display: none;
+        visibility: hidden;
+    }
+}
