@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: yellow;
+    background-color: #fff;
 }
 .quoteContainer{
     min-height: 100vh;
@@ -24,4 +24,29 @@
     display: block;
     background-color: #000;
     padding: 1rem 2rem;
+}
+@media all and (max-width: 1000px){
+    .quoteContainer h1{
+        font-size: 65px;
+    }
+}
+@media all and (max-width: 900px){
+    .quoteContainer h1{
+        font-size: 55px;
+    }
+}
+@media all and (max-width: 700px){
+    .quoteContainer h1{
+        font-size: 45px;
+    }
+}
+@media all and (max-width: 500px){
+    .quoteContainer h1{
+        font-size: 35px;
+    }
+}
+@media all and (max-width: 450px){
+    .quoteContainer h1{
+        font-size: 30px;
+    }
 }
