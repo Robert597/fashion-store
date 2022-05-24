@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./videocover.css";
 import coverVideo from "../../../Assets/home.mp4";
 import { motion } from "framer-motion";
 
 const CoverVideo = () => {
+    useEffect(() => {
+        let video = document.querySelector('video');
+        video.play();
+    }, [])
+    
     const titleVariants = {
         hidden: {
             opacity: 0
