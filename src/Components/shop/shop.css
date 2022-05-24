@@ -28,6 +28,7 @@
 
     position: fixed;
     left: 0;
+    top: 0;
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -48,8 +49,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 2;
-    background-color: green;
+    z-index: 0;
+    background-color: yellow;
 }
 
 .clothesContainer{
