@@ -70,7 +70,7 @@ const CoverVideo = () => {
             </div>
           <motion.h2 data-scroll variants={item1}  data-scroll-delay="0.5" data-scroll-speed="2">Inspire.Create.Believe</motion.h2>
         </motion.div>
-        <video src={coverVideo} autoPlay muted loop className='video' />
+        <video src={coverVideo} playsInline autoPlay muted loop className='video' />
     </div>
   )
 }
