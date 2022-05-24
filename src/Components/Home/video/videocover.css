@@ -1,6 +1,6 @@
 .videoContainer{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 .video{
@@ -56,6 +56,7 @@ h2{
 @media all and (max-width: 450px){
     .Alphabets h1{
         font-size: 50px;
+        font-weight: bold;
     }
     h2{
         font-size: 18px;
