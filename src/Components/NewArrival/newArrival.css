@@ -93,3 +93,33 @@
         visibility: hidden;
     }
 }
+@media all and (max-width: 600px){
+    .contentContainer{
+       flex-direction: column;
+       padding: 15px 30px;
+       height: 80vh;
+    }
+    .arrivalTitle{
+        font-family: newYork;
+        font-size: 60px;
+        z-index: 10;
+        color: #000;
+        text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
+        padding: 10px;
+    }
+}
+@media all and (max-width: 450px){
+    .contentContainer{
+       flex-direction: column;
+       padding: 15px 30px;
+       height: 80vh;
+    }
+    .arrivalTitle{
+        font-family: newYork;
+        font-size: 50px;
+        z-index: 10;
+        color: #000;
+        text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
+        padding: 10px;
+    }
+}
