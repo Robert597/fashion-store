@@ -1,0 +1,26 @@
+.bannerContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.quoteContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quoteContainer h1{
+    font-size: 72px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+}
+.quoteContainer span{
+    display: block;
+    background-color: #000;
+    padding: 1rem 2rem;
+}

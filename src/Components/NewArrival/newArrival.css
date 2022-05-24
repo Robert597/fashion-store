@@ -1,0 +1,60 @@
+.arrivalContainer{
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+    position: relative;
+    background-color: #EAEEF0;
+    color: #000;
+}
+.arrivalTitle{
+    font-family: newYork;
+    font-size: 80px;
+    z-index: 10;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
+    padding: 20px;
+}
+.contentContainer{
+    display: flex;
+    padding: 30px  80px;
+    height: 70vh;
+    align-items: center;
+    font-weight: bold;
+}
+.arrivalSlider{
+    width: 40%;
+    height: 100%;
+    border: 2px solid #000;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.arrivalclothesContainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.arrivalSliderContainer{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    height: auto;
+}
+.arrivalclothesContainer img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.arrivalclothesContainer p{
+    height: 10%;
+    padding: 20px;
+}
+.arrivalContent{
+    width: 60%;
+    padding: 20px 50px;
+}

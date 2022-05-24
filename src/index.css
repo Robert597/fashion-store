@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@font-face {
+    font-family: 'neutral';
+    src: url(Fonts/neutral_face/NeutralFace.otf);
+  }
+  @font-face {
+    font-family: 'neutral1';
+    src: url(Fonts/neutral_face/NeutralFace-Bold.otf);
+  }
+  @font-face {
+    font-family: 'common';
+    src: url(Fonts/neue_haas_sv/folder/NHaasGroteskTXPro-55Rg.ttf);
+  }
+  @font-face {
+    font-family: 'commonmd';
+    src: url(Fonts/neue_haas_sv/folder/NHaasGroteskTXPro-65Md.ttf);
+  }
+  @font-face {
+    font-family: 'newYork';
+    src: url(Fonts/newyork/NewYork\ PERSONAL\ USE.otf);
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+        overflow-x: hidden;
+        font-family: neutral;
+        color: #000;
+        height: 100%;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
