@@ -5,6 +5,8 @@ import image2 from "../../Assets/thomas.webp"
 import image3 from "../../Assets/curled.jpg"; 
 
 const About = () => {
+  let width = window.innerWidth;
+  let breakpoint = 760;
   return (
     <div className='aboutContainer' id='about'>
         <h1 data-scroll data-scroll-speed="-5" data-scroll-direction="horizontal"className='aboutTitle'>About Us</h1>
@@ -23,7 +25,7 @@ const About = () => {
             we are always looking to make something that is easy for everyone.
         </div>
         <div className='right'>
-            <img src={image1} alt="models"/>
+            <img src={image1} alt="models" className='mainImg'/>
             <img src={image2} alt="models" className='small-image1'
             data-scroll data-scroll-speed="3"
             data-scroll-direction="horizontal"/>
