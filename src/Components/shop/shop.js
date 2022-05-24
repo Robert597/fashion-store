@@ -64,13 +64,7 @@ const Shop = () => {
   return (
     <div className='shopContainer' id='shop' ref={el => collection = el}>
          <h1 data-scroll data-scroll-speed="-1" data-scroll-direction="horizontal"className='shopTitle'>New Collections</h1>
-         <div className='shopleft'>
-           <p>
-          The brand new collection is currently being developed in USA. We create our products using best quality material, including the use odf some of the best pure fabrics to make our products.
-          <br/>
-          <br/>
-          We have lots of different clothing options like shoes, jackets and dresses. Not only clothes but we also provide unique jewellery as well. It is great for us to carry  our new clothes all around the country and look different.</p>
-         </div>
+         
          <div className='shopright' ref={el => clothes = el}>
             <div className='clothesContainer'>
               <img src={image1} alt="clothes"/>
@@ -101,6 +95,13 @@ const Shop = () => {
               <p>Collection</p>
               </div>
              
+         </div>
+         <div className='shopleft'>
+           <p>
+          The brand new collection is currently being developed in USA. We create our products using best quality material, including the use odf some of the best pure fabrics to make our products.
+          <br/>
+          <br/>
+          We have lots of different clothing options like shoes, jackets and dresses. Not only clothes but we also provide unique jewellery as well. It is great for us to carry  our new clothes all around the country and look different.</p>
          </div>
     </div>
   )
