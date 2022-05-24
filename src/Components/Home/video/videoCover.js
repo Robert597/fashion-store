@@ -5,8 +5,23 @@ import { motion } from "framer-motion";
 
 const CoverVideo = () => {
     useEffect(() => {
-        let video = document.querySelector('video');
-        video.play();
+        function toggleMute() {
+
+            var video=document.querySelector("video");
+          
+            if(video.muted){
+              video.muted = false;
+            } else {
+              video.muted = true;
+              video.play();
+            }
+          
+          }
+       
+        
+        
+          setTimeout(toggleMute, 1000);
+    
     }, [])
     
     const titleVariants = {
