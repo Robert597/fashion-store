@@ -27,9 +27,7 @@
     font-weight: bold;
     text-shadow: -2px 3px 1px rgba(0,0,0,0.62);
 }
-.h2container{
-    height: 40px;  
-}
+
 h2{
     font-family: common;
     font-weight: 300;
@@ -57,7 +55,7 @@ h2{
 }
 @media all and (max-width: 450px){
     .Alphabets h1{
-        font-size: 54px;
+        font-size: 50px;
     }
     h2{
         font-size: 18px;

@@ -27,10 +27,8 @@ const CoverVideo = () => {
     const item1 ={
         hidden:{
             opacity: 0,
-            y: 40
         },show:{
             opacity: 1,
-            y: 0,
             transition: {
                 duration: 2,
                 ease: "easeInOut"
@@ -70,7 +68,7 @@ const CoverVideo = () => {
                     E
                 </motion.h1>
             </div>
-            <div className='h2container'><motion.h2 data-scroll variants={item1}  data-scroll-delay="0.5" data-scroll-speed="2">Inspire.Create.Believe</motion.h2></div>
+          <motion.h2 data-scroll variants={item1}  data-scroll-delay="0.5" data-scroll-speed="2">Inspire.Create.Believe</motion.h2>
         </motion.div>
         <video src={coverVideo} autoPlay muted loop className='video' />
     </div>
