@@ -16,18 +16,18 @@
     position: absolute;
     top: 1.5rem;
     left: 5%;
-    z-index: 10;
+    z-index: 15;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
 }
 .shopleft{
     width: 35%;
-    z-index: 100;
     min-height: 100vh;
     background-color: #000;
     color: #fff;
 
     position: fixed;
+    z-index: 10;
     left: 0;
     display: flex;
     justify-content: center;
@@ -48,6 +48,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index: 2;
 }
 
 .clothesContainer{
@@ -180,6 +181,5 @@
     }
     .clothesContainer{
         width: 15rem;
-       
-    }
+       }
 }
