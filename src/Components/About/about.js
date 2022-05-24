@@ -11,6 +11,7 @@ const About = () => {
     <div className='aboutContainer' id='about'>
         <h1 data-scroll data-scroll-speed="-5" data-scroll-direction="horizontal"className='aboutTitle'>About Us</h1>
         <div className='left' data-scroll data-scroll-sticky data-scroll-target="#about">
+          <p>
             we're fashion studio based in california.
             we create unique designs that will blow your mind. we also dessign unique jewellery pieces. fashion is an art that cannot be grasped by everyone.
             <br/>
@@ -23,6 +24,7 @@ const About = () => {
             <br/>
             We strive to build on our vision.As a fashion label, we do our best to create amazing experiences for all people.
             we are always looking to make something that is easy for everyone.
+            </p>
         </div>
         <div className='right'>
             <img src={image1} alt="models" className='mainImg'/>

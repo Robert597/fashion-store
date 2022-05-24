@@ -60,6 +60,9 @@ width: 40%;
         height: 100%;
         position: relative;
     }
+    .mainImg{
+        filter: brightness(50%);
+    }
     .left{
         position: absolute;
         z-index: 10;
@@ -72,6 +75,11 @@ width: 40%;
         justify-content: center;
         text-align: center;
         color: #fff;
+        font-weight: bold;
+    }
+    .left p{
+        width: 90%;
+        margin: 0 auto;
     }
     .aboutTitle{
         font-family: newYork;

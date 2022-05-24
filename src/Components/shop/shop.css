@@ -37,6 +37,8 @@
     font-size: 18px;
     width: 80%;
     margin: 0 auto;
+    padding-top: 1.5rem;
+
 }
 .shopright{
     position: absolute;
@@ -47,10 +49,7 @@
     justify-content: flex-start;
     align-items: center;
 }
-.mainClothesContainer{
-    display: flex;
-    height: 100%;
-}
+
 .clothesContainer{
     width: 15rem;
     margin-right: 5rem;
@@ -58,10 +57,139 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
 }
 .clothesContainer img{
     width: 100%;
 }
 .clothesContainer p{
     padding: 20px;
+}
+/*@media all and (max-height: 700px){
+    .clothesContainer{
+        padding-top: 2rem;
+    }
+    .shopleft {
+        padding: 7rem 0;
+    }
+}
+@media all and (max-height: 650px){
+    .shopTitle{
+        font-family: newYork;
+        font-size: 60px;
+        position: absolute;
+        top: 1.5rem;
+        left: 5%;
+        z-index: 10;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
+    }
+}
+@media all and (max-height: 550px){
+    .clothesContainer{
+        padding-top: 8rem;
+    }
+}
+@media all and (max-height: 450px){
+    .clothesContainer{
+        padding-top: 12rem;
+    }
+
+}*/
+@media all and (max-width: 950px){
+    .shopleft{
+        width: 45%;
+    }
+    .shopright{
+        position: absolute;
+        left: 45%;
+    }
+    .clothesContainer{
+        width: 20rem;
+       
+    }
+}
+@media all and (max-width: 760px){
+    .shopleft{
+        width: 45%;
+        z-index: 7;
+        min-height: 100vh;
+        background-color: #000;
+        color: #fff;
+    
+        position: fixed;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shopleft p{
+        font-size: 18px;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1.5rem;
+    }
+    .shopright{
+        position: absolute;
+        left: 45%;
+    }
+    .shopTitle{
+        font-family: newYork;
+        font-size: 60px;
+    }
+}
+@media all and (max-width: 620px){
+    .shopleft{
+        width: 50%;
+    }
+    .shopright{
+        position: absolute;
+        left: 50%;
+    }
+}
+@media all and (max-width: 580px){
+    .shopleft{
+        width: 50%;
+    }
+    .shopleft p{
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+    .shopright{
+        position: absolute;
+        left: 50%;
+    }
+    .shopTitle{
+        font-family: newYork;
+        font-size: 50px;
+    }
+    .clothesContainer{
+        width: 15rem;
+       
+    }
+}
+@media all and (max-width: 430px){
+    .shopleft{
+        width: 50%;
+    }
+    .shopleft p{
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+    .shopright{
+        position: absolute;
+        left: 50%;
+    }
+    .shopTitle{
+        font-family: newYork;
+        font-size: 50px;
+    }
+    .clothesContainer{
+        width: 15rem;
+       
+    }
 }
