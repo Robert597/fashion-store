@@ -55,3 +55,18 @@
     justify-content: space-between;
     align-items: center;
 }
+@media all and (max-width: 700px){
+    .footerNav{
+        width: 100vw;
+    }
+    .footerBottom{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerBottom span{
+        padding: .5rem 0;
+    }
+}

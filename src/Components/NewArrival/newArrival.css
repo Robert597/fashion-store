@@ -102,9 +102,6 @@
     .arrivalTitle{
         font-family: newYork;
         font-size: 60px;
-        z-index: 10;
-        color: #000;
-        text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
         padding: 10px;
     }
 }
@@ -117,9 +114,6 @@
     .arrivalTitle{
         font-family: newYork;
         font-size: 50px;
-        z-index: 10;
-        color: #000;
-        text-shadow: 1px 1px 1px rgba(32,32,32,0.9);
         padding: 10px;
     }
 }
