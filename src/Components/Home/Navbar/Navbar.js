@@ -27,7 +27,7 @@ const Navbar = () => {
     }}
     transition={{
       duration: 2,
-      delay: 7
+      delay: 9
     }}
     className='navbarContainer' style={{top: click ? 0 : width > 600 ? "-4rem" : "-10rem"}}>
       <motion.ul className='menuItems'

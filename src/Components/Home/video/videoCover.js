@@ -24,7 +24,7 @@ const CoverVideo = () => {
         show: {
             opacity: 1,
             transition: {
-               delayChildren: 6,
+               delayChildren: 8,
                staggerChildren: 0.3
             }
         }
