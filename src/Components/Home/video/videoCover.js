@@ -1,22 +1,11 @@
 import React, {useEffect} from 'react'
 import "./videocover.css";
-import coverVideo from "../../../Assets/intro.mp4";
+import coverVideo from "../../../Assets/sweatshirt.jpg";
 import { motion } from "framer-motion";
 
 
 const CoverVideo = () => {
-    useEffect(() => {
-       
 
-            var video=document.querySelector("video");
-          
-           try {
-                 video.play();
-              } catch (err) {
-                video.controls = true;
-              }
-    
-    }, []);
     
     const titleVariants = {
         hidden: {
@@ -86,11 +75,14 @@ const CoverVideo = () => {
           <motion.h2 data-scroll variants={item1}  data-scroll-delay="0.5" data-scroll-speed="2">Inspire.Create.Believe</motion.h2>
           </div>
         </motion.div>
-        <video  autoPlay loop muted playsInline className='video'>
-        <source src={coverVideo} type="video/mp4"/>
-        </video>
+      <img src={coverVideo} alt="loaderImage" className="video"/>
     </div>
   )
 }
 
 export default CoverVideo;
+/*
+  <video  autoPlay loop muted playsInline className='video'>
+        <source src={coverVideo} type="video/mp4"/>
+        </video>
+*/
