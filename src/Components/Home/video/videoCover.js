@@ -5,24 +5,17 @@ import { motion } from "framer-motion";
 
 const CoverVideo = () => {
     useEffect(() => {
-        function toggleMute() {
+       
 
             var video=document.querySelector("video");
           
-            if(video.muted){
-              video.muted = false;
-            } else {
-              video.muted = true;
-              video.play();
-            }
-          
-          }
-       
-        
-        
-          setTimeout(toggleMute, 1000);
+           try {
+                 video.play();
+              } catch (err) {
+                video.controls = true;
+              }
     
-    }, [])
+    }, []);
     
     const titleVariants = {
         hidden: {
@@ -59,6 +52,7 @@ const CoverVideo = () => {
     <div className='videoContainer'>
         <motion.div variants={titleVariants} 
        initial="hidden" animate="show" className='titleContainer'>
+           <div className='shiftUp'>
             <div className='Alphabets'>
                 <motion.h1 variants={item} data-scroll data-scroll-delay="0.20" data-scroll-speed="4">
                     R
@@ -89,9 +83,10 @@ const CoverVideo = () => {
                 </motion.h1>
             </div>
           <motion.h2 data-scroll variants={item1}  data-scroll-delay="0.5" data-scroll-speed="2">Inspire.Create.Believe</motion.h2>
+          </div>
         </motion.div>
         <video  autoPlay loop muted playsInline className='video'>
-        <source src={coverVideo}/>
+        <source src={coverVideo} type="video/mp4"/>
         </video>
     </div>
   )

@@ -20,6 +20,7 @@ svg path{
 }
 .svgText{
     color: #fff;
+    font-weight: bolder;
 }
 @media all and (max-width: 500px){
     .logoContainer{
