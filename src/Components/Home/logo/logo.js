@@ -1,6 +1,6 @@
 import React from 'react'
 import "./logo.css";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 const Logo = () => {
     const textVariant = {
         hidden: {
@@ -12,8 +12,8 @@ const Logo = () => {
             x: 0,
 
             transition: {
-                delay: 2,
                 duration: 2,
+                delay: 5,
                 ease: "easeInOut"
             }
         }
@@ -35,6 +35,7 @@ animate={{
 transition={
     {
         duration: 2,
+        delay: 3,
         ease: "easeInOut"
     }
 }
