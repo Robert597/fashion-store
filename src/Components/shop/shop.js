@@ -3,13 +3,13 @@ import "./shop.css";
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import image1 from "../../Assets/double.jpg";
-import image2 from "../../Assets/nigga.jpg";
-import image3 from "../../Assets/seconddouble.jpg";
-import image4 from "../../Assets/thomas.webp";
-import image5 from "../../Assets/asian.jpg";
-import image6 from "../../Assets/curled.jpg";
-import image7 from "../../Assets/females.webp";
-import {motion} from 'framer-motion'
+import image2 from "../../Assets/shirt.jpg";
+import image3 from "../../Assets/ethnic.jpg";
+import image4 from "../../Assets/blazer.jpg";
+import image5 from "../../Assets/sweatshirt.jpg";
+import image6 from "../../Assets/jewellery.jpg";
+import image7 from "../../Assets/watches.jpg";
+
 
 const Shop = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -74,31 +74,31 @@ const Shop = () => {
          <div className='shopright' ref={el => clothes = el}>
             <div className='clothesContainer'>
               <img src={image1} alt="clothes"/>
-              <p>Collection</p>
+              <p>Denim Jackets</p>
               </div>
             <div className='clothesContainer'>
               <img src={image2} alt="clothes"/>
-              <p>Collection</p>
+              <p>Shirts</p>
               </div>
             <div className='clothesContainer'>
               <img src={image3} alt="clothes"/>
-              <p>Collection</p>
+              <p>Ethnic wears</p>
               </div>
             <div className='clothesContainer'>
               <img src={image4} alt="clothes"/>
-              <p>Collection</p>
+              <p>Blazers</p>
               </div>
             <div className='clothesContainer'>
               <img src={image5} alt="clothes"/>
-              <p>Collection</p>
+              <p>Sweatshirt</p>
               </div>
             <div className='clothesContainer'>
               <img src={image6} alt="clothes"/>
-              <p>Collection</p>
+              <p>Jewellries</p>
               </div>
             <div className='clothesContainer'>
               <img src={image7} alt="clothes"/>
-              <p>Collection</p>
+              <p>Watches</p>
               </div>
          </div>
         
