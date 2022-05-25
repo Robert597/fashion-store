@@ -7,6 +7,8 @@ import image2 from "../../Assets/nigga.jpg";
 import image3 from "../../Assets/seconddouble.jpg";
 import image4 from "../../Assets/thomas.webp";
 import image5 from "../../Assets/asian.jpg";
+import image6 from "../../Assets/curled.jpg";
+import image7 from "../../Assets/females.webp";
 
 const Arrival = () => {
     gsap.registerPlugin(ScrollTrigger);
@@ -58,34 +60,34 @@ const Arrival = () => {
         <div className='arrivalSliderContainer' ref={el => clothes = el}>
     <div className='arrivalclothesContainer'>
               <img src={image1} alt="clothes"/>
-              <p>Collection</p>
+              <p>Denim Jackets</p>
+              </div>
+            <div className='arrivalclothesContainer'>
+              <img src={image4} alt="clothes"/>
+              <p>Suits</p>
+              </div>
+            <div className='arrivalclothesContainer'>
+              <img src={image3} alt="clothes"/>
+              <p>Pallazo</p>
               </div>
             <div className='arrivalclothesContainer'>
               <img src={image2} alt="clothes"/>
-              <p>Collection</p>
-              </div>
-            <div className='arrivalclothesContainer'>
-              <img src={image3} alt="clothes"/>
-              <p>Collection</p>
-              </div>
-            <div className='arrivalclothesContainer'>
-              <img src={image4} alt="clothes"/>
-              <p>Collection</p>
+              <p>Denim & tees</p>
               </div>
             <div className='arrivalclothesContainer'>
               <img src={image5} alt="clothes"/>
-              <p>Collection</p>
+              <p>Asian Wear</p>
               </div>
               <div className='arrivalclothesContainer'>
+              <img src={image6} alt="clothes"/>
+              <p>Adidas</p>
+              </div>
+            <div className='arrivalclothesContainer'>
+              <img src={image7} alt="clothes"/>
+              <p>Jackets</p>
+              </div>
+            <div className='arrivalclothesContainer'>
               <img src={image3} alt="clothes"/>
-              <p>Collection</p>
-              </div>
-            <div className='arrivalclothesContainer'>
-              <img src={image4} alt="clothes"/>
-              <p>Collection</p>
-              </div>
-            <div className='arrivalclothesContainer'>
-              <img src={image5} alt="clothes"/>
               <p>Collection</p>
               </div>
               </div>
