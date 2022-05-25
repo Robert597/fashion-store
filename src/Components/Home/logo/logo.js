@@ -13,7 +13,7 @@ const Logo = () => {
 
             transition: {
                 duration: 2,
-                delay: 8,
+                delay: 5,
                 ease: "easeInOut"
             }
         }
@@ -35,7 +35,7 @@ animate={{
 transition={
     {
         duration: 2,
-        delay: 6,
+        delay: 3,
         ease: "easeInOut"
     }
 }

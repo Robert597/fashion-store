@@ -22,14 +22,14 @@
     color: #fff;
 }
 .Alphabets h1{
-    font-family: newYork;
+    font-family: newYork, 'Poppins';
     font-size: 100px;
     font-weight: bold;
     text-shadow: -2px 3px 1px rgba(0,0,0,0.62);
 }
 
 h2{
-    font-family: common;
+    font-family: common, 'Poppins';
     font-weight: 300;
 }
 .Alphabets{
