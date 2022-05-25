@@ -5,10 +5,10 @@ import "./newArrival.css";
 import image1 from "../../Assets/double.jpg";
 import image2 from "../../Assets/nigga.jpg";
 import image3 from "../../Assets/seconddouble.jpg";
-import image4 from "../../Assets/thomas.webp";
+import image4 from "../../Assets/thomas.jpg";
 import image5 from "../../Assets/asian.jpg";
 import image6 from "../../Assets/curled.jpg";
-import image7 from "../../Assets/females.webp";
+import image7 from "../../Assets/females.jpg";
 
 const Arrival = () => {
     gsap.registerPlugin(ScrollTrigger);

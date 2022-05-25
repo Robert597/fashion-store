@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import "./videocover.css";
-import coverVideo from "../../../Assets/home.mp4";
+import coverVideo from "../../../Assets/intro.mp4";
 import { motion } from "framer-motion";
 
 const CoverVideo = () => {
