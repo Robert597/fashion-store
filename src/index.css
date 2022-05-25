@@ -18,7 +18,7 @@
     font-family: 'newYork';
     src: url(Fonts/newyork/NewYork\ PERSONAL\ USE.otf);
   }
-
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
 
 
 *,*::before,*::after{
@@ -27,7 +27,7 @@
     }
     
     body{
-        font-family: neutral;
+        font-family: neutral, 'Poppins';
         color: #000;
         height: 100%;
         width: 100vw;

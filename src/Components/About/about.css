@@ -122,9 +122,28 @@ width: 40%;
         background-color: black;
     }
 }
-@media all and (max-width: 370px){
+
+@media all and (max-width: 450px){
     .aboutTitle{
         font-family: newYork;
-        font-size: 70px;
+        font-size: 60px;
+    }
+    .left{
+        position: absolute;
+        z-index: 10;
+        margin-top: 25%;
+        font-size: 14px;
+    }
+}
+@media all and (max-height: 550px) and (max-width: 450px){
+    .aboutTitle{
+        font-family: newYork;
+        font-size: 40px;
+    }
+    .left{
+        position: absolute;
+        z-index: 10;
+        margin-top: 25%;
+        font-size: 12px;
     }
 }

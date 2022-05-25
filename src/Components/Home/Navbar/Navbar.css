@@ -5,7 +5,7 @@
     top: 0;
     justify-content: center;
     align-items: center;
-    z-index: 7;
+    z-index: 12;
     transition: 1s ease-in-out all;
 }
 .menuBtn{
@@ -19,7 +19,7 @@
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
     font-weight: 600;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 100%;
 }
 .menuItems{
