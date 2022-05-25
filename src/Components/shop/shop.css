@@ -32,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
 }
 .shopleft p{
     font-size: 18px;
