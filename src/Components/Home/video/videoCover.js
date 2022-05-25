@@ -3,6 +3,7 @@ import "./videocover.css";
 import coverVideo from "../../../Assets/intro.mp4";
 import { motion } from "framer-motion";
 
+
 const CoverVideo = () => {
     useEffect(() => {
        
